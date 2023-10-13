@@ -1,26 +1,28 @@
-﻿var nazwisko = Console.ReadLine();
-int wiek = int.Parse(Console.ReadLine());
-int emeryt = int.Parse(Console.ReadLine());
+﻿string imie = Console.Readline();
+//string imie = "Molenda 55 65";
+string[] input = imie.Split(' ');
+int wiek = int.Parse(input[1]);
+int emeryt = int.Parse(input[2]);
 int roz = emeryt - wiek;
 int last = roz % 10;
 //int emeryt = 65;
 int pol = 0;
-Console.WriteLine($"Witaj, {nazwisko}!");
+Console.Write($"Witaj, {input[0]}! ");
 
-if(roz == 1)
+if (roz == 1)
 {
     pol = 1;
 }
-else if(roz == 0)
+else if (roz == 0)
 {
     pol = 5;
 }
-else if(last > 1 && last < 5)
+else if (last > 1 && last < 5)
 {
     pol = 2;
 }
-else if((last >=5 && last <= 9) || last == 0)
-{ 
+else if ((last >= 5 && last <= 9) || last == 0)
+{
     pol = 3;
 }
 else if (wiek < 0 || emeryt < 0)
@@ -54,6 +56,8 @@ switch (pol)
 
 /*
 końcówki
+1
+rok
 2
 3
 4
