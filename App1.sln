@@ -9,7 +9,9 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "eme2", "eme2\eme2.csproj", 
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "testo", "testo\testo.csproj", "{8B9CE008-6619-4208-A292-2BFCD0E53834}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "eme3", "eme3\eme3.csproj", "{82110E21-A7AB-4FA5-9421-B5E55F9A41FC}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "eme3", "eme3\eme3.csproj", "{82110E21-A7AB-4FA5-9421-B5E55F9A41FC}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "eme 3 test", "eme 3 test\eme 3 test.csproj", "{77484B58-260D-44DB-BF43-66FE3861A0E9}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -33,6 +35,10 @@ Global
 		{82110E21-A7AB-4FA5-9421-B5E55F9A41FC}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{82110E21-A7AB-4FA5-9421-B5E55F9A41FC}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{82110E21-A7AB-4FA5-9421-B5E55F9A41FC}.Release|Any CPU.Build.0 = Release|Any CPU
+		{77484B58-260D-44DB-BF43-66FE3861A0E9}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{77484B58-260D-44DB-BF43-66FE3861A0E9}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{77484B58-260D-44DB-BF43-66FE3861A0E9}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{77484B58-260D-44DB-BF43-66FE3861A0E9}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
